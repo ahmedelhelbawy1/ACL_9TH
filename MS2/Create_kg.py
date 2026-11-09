@@ -189,8 +189,9 @@ def validate_csv_files(directory: Path = BASE_DIR, *, strict_counts: bool = True
 
 
 def create_constraints(session: Any) -> None:
+    """Match constraints by schema, avoiding collisions with unrelated names."""
     for table in TABLES:
-        session.run(f'CREATE CONSTRAINT ms2_{table.label.lower()}_id IF NOT EXISTS '
+        session.run('CREATE CONSTRAINT IF NOT EXISTS '
                     f'FOR (n:{table.label}) REQUIRE n.{table.key} IS UNIQUE').consume()
 
 

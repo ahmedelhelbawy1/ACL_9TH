@@ -1,0 +1,86 @@
+{
+  "driver_uniqueness_present": false,
+  "constraints": [
+    {
+      "name": "ms2_circuit_id",
+      "labelsOrTypes": [
+        "Circuit"
+      ],
+      "properties": [
+        "circuitId"
+      ]
+    },
+    {
+      "name": "ms2_constructor_id",
+      "labelsOrTypes": [
+        "Constructor"
+      ],
+      "properties": [
+        "constructorId"
+      ]
+    },
+    {
+      "name": "ms2_driver_id",
+      "labelsOrTypes": [
+        "AuditUnrelated"
+      ],
+      "properties": [
+        "externalId"
+      ]
+    },
+    {
+      "name": "ms2_pitstop_id",
+      "labelsOrTypes": [
+        "PitStop"
+      ],
+      "properties": [
+        "eventId"
+      ]
+    },
+    {
+      "name": "ms2_qualifying_id",
+      "labelsOrTypes": [
+        "Qualifying"
+      ],
+      "properties": [
+        "qualifyId"
+      ]
+    },
+    {
+      "name": "ms2_race_id",
+      "labelsOrTypes": [
+        "Race"
+      ],
+      "properties": [
+        "raceId"
+      ]
+    },
+    {
+      "name": "ms2_result_id",
+      "labelsOrTypes": [
+        "Result"
+      ],
+      "properties": [
+        "resultId"
+      ]
+    },
+    {
+      "name": "ms2_season_id",
+      "labelsOrTypes": [
+        "Season"
+      ],
+      "properties": [
+        "year"
+      ]
+    },
+    {
+      "name": "ms2_status_id",
+      "labelsOrTypes": [
+        "Status"
+      ],
+      "properties": [
+        "statusId"
+      ]
+    }
+  ]
+}

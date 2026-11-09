@@ -112,6 +112,38 @@ class UnitTests(unittest.TestCase):
         with self.assertRaisesRegex(ValidationError, 'expected 861'):
             validate_csv_files(self.directory)
 
+    def test_quoted_csv_values_are_preserved(self):
+        path = self.directory / 'constructors.csv'
+        with path.open(newline='') as handle:
+            reader = csv.DictReader(handle)
+            fields, rows = reader.fieldnames, list(reader)
+        rows[0]['name'] = 'Team, "Quoted"'
+        with path.open('w', encoding='utf-8-sig', newline='') as handle:
+            writer = csv.DictWriter(handle, fieldnames=fields)
+            writer.writeheader()
+            writer.writerows(rows)
+        data = validate_csv_files(self.directory, strict_counts=False)
+        self.assertEqual(data['Constructor'][0]['props']['constructor_name'], 'Team, "Quoted"')
+
+    def test_malformed_csv_quotes(self):
+        with (self.directory / 'drivers.csv').open('a') as handle:
+            handle.write('"unterminated')
+        with self.assertRaisesRegex(ValidationError, 'drivers.csv'):
+            validate_csv_files(self.directory, strict_counts=False)
+
+    def test_duplicate_csv_headers(self):
+        path = self.directory / 'drivers.csv'
+        text = path.read_text()
+        header, rest = text.split('\n', 1)
+        path.write_text(header + ',driverId\n' + rest)
+        with self.assertRaisesRegex(ValidationError, 'duplicate CSV columns'):
+            validate_csv_files(self.directory, strict_counts=False)
+
+    def test_query_comparison_rejects_missing_result_sets(self):
+        from tests.test_integration import assert_answers
+        with self.assertRaises(AssertionError):
+            assert_answers(self, [[]], [[], []])
+
     def test_query_headers_and_order(self):
         self.assertEqual(len(read_queries()), 5)
         path = self.directory / 'queries.txt'

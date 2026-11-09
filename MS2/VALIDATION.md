@@ -1,5 +1,9 @@
 # Verification record — November 9, 2026
 
+This is the original 35-test delivery record. A subsequent strict audit passed 47
+tests, including authenticated standalone imports and independent PDF-schema checks.
+See `verification/audit_tests.txt` and `verification/audit_database.json` for that run.
+
 The full raw version-24 dataset was imported into an isolated local Neo4j 5.26
 Community instance using Python 3.11 and the official Neo4j Python driver 5.28.8.
 All nine CSV counts match the saved output in the original MS1 notebook. The pinned

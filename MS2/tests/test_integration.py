@@ -21,6 +21,7 @@ from tests.reference import reference_answers
 
 
 def assert_answers(case: unittest.TestCase, actual: list, expected: list) -> None:
+    case.assertEqual(len(actual), len(expected), "Every query must have a result set")
     for index, (found, wanted) in enumerate(zip(actual, expected), 1):
         with case.subTest(query=index):
             case.assertEqual(len(found), len(wanted))

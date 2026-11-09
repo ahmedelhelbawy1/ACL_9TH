@@ -196,6 +196,39 @@ use a fresh container for a new run. Stop/remove only your test container afterw
 
 See `VALIDATION.md` and `verification/` for the actual results recorded during delivery.
 
+## Strict audit suite
+
+`tests/test_audit.py` additionally runs the standalone `Create_kg.py` in a temporary
+folder containing only that script, the nine CSVs and a private config. It uses a
+separate authenticated server with a non-default database name, verifies imports
+with and without `DATABASE`, and compares every property and relationship against
+an independent specification transcribed from the assignment PDF.
+
+Create an empty disposable server using the Docker settings
+`NEO4J_initial_dbms_default__database=ms2audit` and `NEO4J_AUTH=neo4j/<your password>`.
+Map its Bolt port to an unused localhost port. Write its URI, username, password and
+`DATABASE=ms2audit` into a private config file outside the repository, then run:
+
+```bash
+MS2_AUDIT_CONFIG=/path/to/private-audit-config.txt \
+  python -m unittest tests.test_audit -v
+```
+
+The audit refuses a nonempty database and never clears it. The server must require
+a password for the wrong-password test to be meaningful. Run against a fresh empty
+server each time. `MS2_AUDIT_OUTPUT=/path/to/results.json` optionally saves counts,
+query results and run timings, without credentials. Running all three integration
+suites together requires their three separate configured endpoints.
+
+Constraint creation matches the required label/property schema without fixed names,
+so an unrelated constraint named `ms2_driver_id` cannot silently suppress Driver
+uniqueness. The audit reproduces this collision and verifies that both constraints
+remain present.
+
+The latest audit executed **47 tests with no failures or skips**. Its evidence is in
+`verification/audit_tests.txt` and `verification/audit_database.json`. The earlier
+35-test record in `VALIDATION.md` is retained as historical delivery evidence.
+
 ## Troubleshooting
 
 - **Missing CSV / count mismatch:** restore the nine raw version-24 files alongside
