@@ -1,0 +1,836 @@
+[
+  [
+    {
+      "Driver": "Max Verstappen",
+      "Points": 388.5,
+      "Wins": 10
+    },
+    {
+      "Driver": "Lewis Hamilton",
+      "Points": 385.5,
+      "Wins": 8
+    },
+    {
+      "Driver": "Valtteri Bottas",
+      "Points": 219.0,
+      "Wins": 1
+    },
+    {
+      "Driver": "Sergio Pérez",
+      "Points": 190.0,
+      "Wins": 1
+    },
+    {
+      "Driver": "Carlos Sainz",
+      "Points": 163.5,
+      "Wins": 0
+    },
+    {
+      "Driver": "Lando Norris",
+      "Points": 160.0,
+      "Wins": 0
+    },
+    {
+      "Driver": "Charles Leclerc",
+      "Points": 159.0,
+      "Wins": 0
+    },
+    {
+      "Driver": "Daniel Ricciardo",
+      "Points": 114.0,
+      "Wins": 1
+    },
+    {
+      "Driver": "Pierre Gasly",
+      "Points": 110.0,
+      "Wins": 0
+    },
+    {
+      "Driver": "Fernando Alonso",
+      "Points": 81.0,
+      "Wins": 0
+    },
+    {
+      "Driver": "Esteban Ocon",
+      "Points": 74.0,
+      "Wins": 1
+    },
+    {
+      "Driver": "Sebastian Vettel",
+      "Points": 43.0,
+      "Wins": 0
+    },
+    {
+      "Driver": "Lance Stroll",
+      "Points": 34.0,
+      "Wins": 0
+    },
+    {
+      "Driver": "Yuki Tsunoda",
+      "Points": 32.0,
+      "Wins": 0
+    },
+    {
+      "Driver": "George Russell",
+      "Points": 16.0,
+      "Wins": 0
+    },
+    {
+      "Driver": "Kimi Räikkönen",
+      "Points": 10.0,
+      "Wins": 0
+    },
+    {
+      "Driver": "Nicholas Latifi",
+      "Points": 7.0,
+      "Wins": 0
+    },
+    {
+      "Driver": "Antonio Giovinazzi",
+      "Points": 3.0,
+      "Wins": 0
+    },
+    {
+      "Driver": "Mick Schumacher",
+      "Points": 0.0,
+      "Wins": 0
+    },
+    {
+      "Driver": "Nikita Mazepin",
+      "Points": 0.0,
+      "Wins": 0
+    },
+    {
+      "Driver": "Robert Kubica",
+      "Points": 0.0,
+      "Wins": 0
+    }
+  ],
+  [
+    {
+      "Constructor": "Mercedes",
+      "Entries": 320,
+      "Classified": 298,
+      "Reliability": 0.93125
+    },
+    {
+      "Constructor": "Alfa Romeo",
+      "Entries": 120,
+      "Classified": 109,
+      "Reliability": 0.9083333333333333
+    },
+    {
+      "Constructor": "Ferrari",
+      "Entries": 320,
+      "Classified": 277,
+      "Reliability": 0.865625
+    },
+    {
+      "Constructor": "Force India",
+      "Entries": 200,
+      "Classified": 169,
+      "Reliability": 0.845
+    },
+    {
+      "Constructor": "Williams",
+      "Entries": 320,
+      "Classified": 266,
+      "Reliability": 0.83125
+    },
+    {
+      "Constructor": "Red Bull",
+      "Entries": 320,
+      "Classified": 263,
+      "Reliability": 0.821875
+    },
+    {
+      "Constructor": "McLaren",
+      "Entries": 320,
+      "Classified": 248,
+      "Reliability": 0.775
+    },
+    {
+      "Constructor": "Haas F1 Team",
+      "Entries": 244,
+      "Classified": 188,
+      "Reliability": 0.7704918032786885
+    },
+    {
+      "Constructor": "Renault",
+      "Entries": 200,
+      "Classified": 151,
+      "Reliability": 0.755
+    },
+    {
+      "Constructor": "Sauber",
+      "Entries": 200,
+      "Classified": 149,
+      "Reliability": 0.745
+    },
+    {
+      "Constructor": "Toro Rosso",
+      "Entries": 242,
+      "Classified": 180,
+      "Reliability": 0.743801652892562
+    }
+  ],
+  [
+    {
+      "Constructor": "Mercedes",
+      "Shared_Races": 100,
+      "Hamilton_Ahead": 75,
+      "Bottas_Ahead": 25
+    }
+  ],
+  [
+    {
+      "Driver": "Ayrton Senna",
+      "Starts": 10,
+      "Avg_Finish": 3.8,
+      "Wins": 6
+    },
+    {
+      "Driver": "Lewis Hamilton",
+      "Starts": 13,
+      "Avg_Finish": 4.0,
+      "Wins": 3
+    },
+    {
+      "Driver": "Phil Hill",
+      "Starts": 5,
+      "Avg_Finish": 4.2,
+      "Wins": 0
+    },
+    {
+      "Driver": "Jody Scheckter",
+      "Starts": 7,
+      "Avg_Finish": 4.285714,
+      "Wins": 2
+    },
+    {
+      "Driver": "Lorenzo Bandini",
+      "Starts": 5,
+      "Avg_Finish": 4.8,
+      "Wins": 0
+    },
+    {
+      "Driver": "Jochen Mass",
+      "Starts": 5,
+      "Avg_Finish": 5.0,
+      "Wins": 0
+    },
+    {
+      "Driver": "Keke Rosberg",
+      "Starts": 5,
+      "Avg_Finish": 5.2,
+      "Wins": 1
+    },
+    {
+      "Driver": "Jackie Stewart",
+      "Starts": 8,
+      "Avg_Finish": 5.25,
+      "Wins": 3
+    },
+    {
+      "Driver": "Sebastian Vettel",
+      "Starts": 12,
+      "Avg_Finish": 5.25,
+      "Wins": 2
+    },
+    {
+      "Driver": "Alain Prost",
+      "Starts": 13,
+      "Avg_Finish": 6.230769,
+      "Wins": 4
+    },
+    {
+      "Driver": "Eddie Irvine",
+      "Starts": 8,
+      "Avg_Finish": 6.5,
+      "Wins": 0
+    },
+    {
+      "Driver": "Stirling Moss",
+      "Starts": 7,
+      "Avg_Finish": 6.571429,
+      "Wins": 3
+    },
+    {
+      "Driver": "Graham Hill",
+      "Starts": 17,
+      "Avg_Finish": 6.764706,
+      "Wins": 5
+    },
+    {
+      "Driver": "Richie Ginther",
+      "Starts": 7,
+      "Avg_Finish": 7.0,
+      "Wins": 0
+    },
+    {
+      "Driver": "Emerson Fittipaldi",
+      "Starts": 10,
+      "Avg_Finish": 7.2,
+      "Wins": 0
+    },
+    {
+      "Driver": "Daniel Ricciardo",
+      "Starts": 8,
+      "Avg_Finish": 7.25,
+      "Wins": 1
+    },
+    {
+      "Driver": "Patrick Depailler",
+      "Starts": 7,
+      "Avg_Finish": 7.285714,
+      "Wins": 1
+    },
+    {
+      "Driver": "Jo Bonnier",
+      "Starts": 9,
+      "Avg_Finish": 7.333333,
+      "Wins": 0
+    },
+    {
+      "Driver": "Didier Pironi",
+      "Starts": 5,
+      "Avg_Finish": 7.4,
+      "Wins": 0
+    },
+    {
+      "Driver": "Bruce McLaren",
+      "Starts": 12,
+      "Avg_Finish": 7.416667,
+      "Wins": 1
+    },
+    {
+      "Driver": "Fernando Alonso",
+      "Starts": 16,
+      "Avg_Finish": 7.4375,
+      "Wins": 2
+    },
+    {
+      "Driver": "Nico Rosberg",
+      "Starts": 11,
+      "Avg_Finish": 7.545455,
+      "Wins": 3
+    },
+    {
+      "Driver": "Pedro Rodríguez",
+      "Starts": 5,
+      "Avg_Finish": 7.8,
+      "Wins": 0
+    },
+    {
+      "Driver": "Carlos Sainz",
+      "Starts": 5,
+      "Avg_Finish": 8.0,
+      "Wins": 0
+    },
+    {
+      "Driver": "Wolfgang von Trips",
+      "Starts": 5,
+      "Avg_Finish": 8.0,
+      "Wins": 0
+    },
+    {
+      "Driver": "Jim Clark",
+      "Starts": 6,
+      "Avg_Finish": 8.166667,
+      "Wins": 0
+    },
+    {
+      "Driver": "Michael Schumacher",
+      "Starts": 18,
+      "Avg_Finish": 8.277778,
+      "Wins": 5
+    },
+    {
+      "Driver": "Denny Hulme",
+      "Starts": 10,
+      "Avg_Finish": 8.3,
+      "Wins": 1
+    },
+    {
+      "Driver": "Juan Pablo Montoya",
+      "Starts": 6,
+      "Avg_Finish": 8.333333,
+      "Wins": 1
+    },
+    {
+      "Driver": "Jonathan Palmer",
+      "Starts": 5,
+      "Avg_Finish": 8.4,
+      "Wins": 0
+    },
+    {
+      "Driver": "Ronnie Peterson",
+      "Starts": 9,
+      "Avg_Finish": 8.555556,
+      "Wins": 1
+    },
+    {
+      "Driver": "Mika Salo",
+      "Starts": 7,
+      "Avg_Finish": 8.571429,
+      "Wins": 0
+    },
+    {
+      "Driver": "Martin Brundle",
+      "Starts": 9,
+      "Avg_Finish": 8.666667,
+      "Wins": 0
+    },
+    {
+      "Driver": "Jacques Laffite",
+      "Starts": 11,
+      "Avg_Finish": 8.818182,
+      "Wins": 0
+    },
+    {
+      "Driver": "Tony Brooks",
+      "Starts": 6,
+      "Avg_Finish": 8.833333,
+      "Wins": 0
+    },
+    {
+      "Driver": "Jo Siffert",
+      "Starts": 9,
+      "Avg_Finish": 8.888889,
+      "Wins": 0
+    },
+    {
+      "Driver": "Mark Webber",
+      "Starts": 12,
+      "Avg_Finish": 8.916667,
+      "Wins": 2
+    },
+    {
+      "Driver": "Rubens Barrichello",
+      "Starts": 19,
+      "Avg_Finish": 8.947368,
+      "Wins": 0
+    },
+    {
+      "Driver": "Robert Kubica",
+      "Starts": 5,
+      "Avg_Finish": 9.0,
+      "Wins": 0
+    },
+    {
+      "Driver": "Maurice Trintignant",
+      "Starts": 11,
+      "Avg_Finish": 9.090909,
+      "Wins": 2
+    },
+    {
+      "Driver": "Felipe Massa",
+      "Starts": 15,
+      "Avg_Finish": 9.333333,
+      "Wins": 0
+    },
+    {
+      "Driver": "Elio de Angelis",
+      "Starts": 7,
+      "Avg_Finish": 9.428571,
+      "Wins": 0
+    },
+    {
+      "Driver": "Valtteri Bottas",
+      "Starts": 7,
+      "Avg_Finish": 9.428571,
+      "Wins": 0
+    },
+    {
+      "Driver": "Nick Heidfeld",
+      "Starts": 11,
+      "Avg_Finish": 9.454545,
+      "Wins": 0
+    },
+    {
+      "Driver": "Jean Alesi",
+      "Starts": 12,
+      "Avg_Finish": 9.5,
+      "Wins": 0
+    },
+    {
+      "Driver": "Niki Lauda",
+      "Starts": 11,
+      "Avg_Finish": 9.545455,
+      "Wins": 2
+    },
+    {
+      "Driver": "Giancarlo Fisichella",
+      "Starts": 14,
+      "Avg_Finish": 9.571429,
+      "Wins": 0
+    },
+    {
+      "Driver": "John Watson",
+      "Starts": 8,
+      "Avg_Finish": 9.625,
+      "Wins": 0
+    },
+    {
+      "Driver": "Carlos Reutemann",
+      "Starts": 9,
+      "Avg_Finish": 9.666667,
+      "Wins": 1
+    },
+    {
+      "Driver": "Jack Brabham",
+      "Starts": 14,
+      "Avg_Finish": 9.714286,
+      "Wins": 1
+    },
+    {
+      "Driver": "Kimi Räikkönen",
+      "Starts": 17,
+      "Avg_Finish": 9.764706,
+      "Wins": 1
+    },
+    {
+      "Driver": "John Surtees",
+      "Starts": 12,
+      "Avg_Finish": 9.833333,
+      "Wins": 0
+    },
+    {
+      "Driver": "Michele Alboreto",
+      "Starts": 13,
+      "Avg_Finish": 9.923077,
+      "Wins": 0
+    },
+    {
+      "Driver": "Jacky Ickx",
+      "Starts": 9,
+      "Avg_Finish": 10.111111,
+      "Wins": 0
+    },
+    {
+      "Driver": "Ralf Schumacher",
+      "Starts": 11,
+      "Avg_Finish": 10.272727,
+      "Wins": 0
+    },
+    {
+      "Driver": "Gerhard Berger",
+      "Starts": 12,
+      "Avg_Finish": 10.333333,
+      "Wins": 0
+    },
+    {
+      "Driver": "Max Verstappen",
+      "Starts": 5,
+      "Avg_Finish": 10.8,
+      "Wins": 0
+    },
+    {
+      "Driver": "Olivier Panis",
+      "Starts": 10,
+      "Avg_Finish": 10.9,
+      "Wins": 1
+    },
+    {
+      "Driver": "Jenson Button",
+      "Starts": 17,
+      "Avg_Finish": 11.117647,
+      "Wins": 1
+    },
+    {
+      "Driver": "Chris Amon",
+      "Starts": 7,
+      "Avg_Finish": 11.142857,
+      "Wins": 0
+    },
+    {
+      "Driver": "Dan Gurney",
+      "Starts": 7,
+      "Avg_Finish": 11.142857,
+      "Wins": 0
+    },
+    {
+      "Driver": "Harry Schell",
+      "Starts": 6,
+      "Avg_Finish": 11.142857,
+      "Wins": 0
+    },
+    {
+      "Driver": "Heinz-Harald Frentzen",
+      "Starts": 8,
+      "Avg_Finish": 11.25,
+      "Wins": 0
+    },
+    {
+      "Driver": "Jacques Villeneuve",
+      "Starts": 10,
+      "Avg_Finish": 11.3,
+      "Wins": 0
+    },
+    {
+      "Driver": "David Coulthard",
+      "Starts": 14,
+      "Avg_Finish": 11.428571,
+      "Wins": 2
+    },
+    {
+      "Driver": "Riccardo Patrese",
+      "Starts": 17,
+      "Avg_Finish": 11.470588,
+      "Wins": 1
+    },
+    {
+      "Driver": "Nigel Mansell",
+      "Starts": 12,
+      "Avg_Finish": 11.5,
+      "Wins": 0
+    },
+    {
+      "Driver": "Johnny Herbert",
+      "Starts": 10,
+      "Avg_Finish": 11.7,
+      "Wins": 0
+    },
+    {
+      "Driver": "Jean-Pierre Beltoise",
+      "Starts": 7,
+      "Avg_Finish": 11.714286,
+      "Wins": 1
+    },
+    {
+      "Driver": "Jarno Trulli",
+      "Starts": 15,
+      "Avg_Finish": 11.733333,
+      "Wins": 1
+    },
+    {
+      "Driver": "Nico Hülkenberg",
+      "Starts": 9,
+      "Avg_Finish": 11.777778,
+      "Wins": 0
+    },
+    {
+      "Driver": "Thierry Boutsen",
+      "Starts": 9,
+      "Avg_Finish": 11.777778,
+      "Wins": 0
+    },
+    {
+      "Driver": "Patrick Tambay",
+      "Starts": 6,
+      "Avg_Finish": 11.833333,
+      "Wins": 0
+    },
+    {
+      "Driver": "Jean-Pierre Jarier",
+      "Starts": 8,
+      "Avg_Finish": 11.875,
+      "Wins": 0
+    },
+    {
+      "Driver": "Jyrki Järvilehto",
+      "Starts": 5,
+      "Avg_Finish": 12.2,
+      "Wins": 0
+    },
+    {
+      "Driver": "Adrian Sutil",
+      "Starts": 7,
+      "Avg_Finish": 12.428571,
+      "Wins": 0
+    },
+    {
+      "Driver": "Damon Hill",
+      "Starts": 7,
+      "Avg_Finish": 12.571429,
+      "Wins": 0
+    },
+    {
+      "Driver": "Mario Andretti",
+      "Starts": 6,
+      "Avg_Finish": 12.666667,
+      "Wins": 0
+    },
+    {
+      "Driver": "Alan Jones",
+      "Starts": 8,
+      "Avg_Finish": 12.75,
+      "Wins": 0
+    },
+    {
+      "Driver": "Mika Häkkinen",
+      "Starts": 10,
+      "Avg_Finish": 12.8,
+      "Wins": 1
+    },
+    {
+      "Driver": "Daniil Kvyat",
+      "Starts": 5,
+      "Avg_Finish": 12.8,
+      "Wins": 0
+    },
+    {
+      "Driver": "Mike Hailwood",
+      "Starts": 5,
+      "Avg_Finish": 12.8,
+      "Wins": 0
+    },
+    {
+      "Driver": "Nelson Piquet",
+      "Starts": 13,
+      "Avg_Finish": 12.846154,
+      "Wins": 0
+    },
+    {
+      "Driver": "René Arnoux",
+      "Starts": 10,
+      "Avg_Finish": 13.0,
+      "Wins": 0
+    },
+    {
+      "Driver": "Kevin Magnussen",
+      "Starts": 5,
+      "Avg_Finish": 13.2,
+      "Wins": 0
+    },
+    {
+      "Driver": "Sergio Pérez",
+      "Starts": 9,
+      "Avg_Finish": 13.222222,
+      "Wins": 0
+    },
+    {
+      "Driver": "Derek Warwick",
+      "Starts": 8,
+      "Avg_Finish": 13.25,
+      "Wins": 0
+    },
+    {
+      "Driver": "Clay Regazzoni",
+      "Starts": 7,
+      "Avg_Finish": 13.285714,
+      "Wins": 0
+    },
+    {
+      "Driver": "Heikki Kovalainen",
+      "Starts": 6,
+      "Avg_Finish": 13.333333,
+      "Wins": 0
+    },
+    {
+      "Driver": "Pedro Diniz",
+      "Starts": 6,
+      "Avg_Finish": 13.333333,
+      "Wins": 0
+    },
+    {
+      "Driver": "Romain Grosjean",
+      "Starts": 8,
+      "Avg_Finish": 13.375,
+      "Wins": 0
+    },
+    {
+      "Driver": "Eddie Cheever",
+      "Starts": 7,
+      "Avg_Finish": 13.571429,
+      "Wins": 0
+    },
+    {
+      "Driver": "Marcus Ericsson",
+      "Starts": 5,
+      "Avg_Finish": 13.6,
+      "Wins": 0
+    },
+    {
+      "Driver": "Ivan Capelli",
+      "Starts": 6,
+      "Avg_Finish": 13.666667,
+      "Wins": 0
+    },
+    {
+      "Driver": "Andrea de Cesaris",
+      "Starts": 13,
+      "Avg_Finish": 14.0,
+      "Wins": 0
+    },
+    {
+      "Driver": "Carlos Pace",
+      "Starts": 5,
+      "Avg_Finish": 14.4,
+      "Wins": 0
+    },
+    {
+      "Driver": "Hans-Joachim Stuck",
+      "Starts": 5,
+      "Avg_Finish": 14.4,
+      "Wins": 0
+    },
+    {
+      "Driver": "Philippe Alliot",
+      "Starts": 5,
+      "Avg_Finish": 14.4,
+      "Wins": 0
+    },
+    {
+      "Driver": "Vitantonio Liuzzi",
+      "Starts": 5,
+      "Avg_Finish": 14.4,
+      "Wins": 0
+    },
+    {
+      "Driver": "James Hunt",
+      "Starts": 7,
+      "Avg_Finish": 14.428571,
+      "Wins": 0
+    },
+    {
+      "Driver": "Jos Verstappen",
+      "Starts": 6,
+      "Avg_Finish": 14.833333,
+      "Wins": 0
+    },
+    {
+      "Driver": "Timo Glock",
+      "Starts": 5,
+      "Avg_Finish": 16.0,
+      "Wins": 0
+    },
+    {
+      "Driver": "Ukyo Katayama",
+      "Starts": 5,
+      "Avg_Finish": 16.8,
+      "Wins": 0
+    },
+    {
+      "Driver": "Pedro de la Rosa",
+      "Starts": 6,
+      "Avg_Finish": 18.833333,
+      "Wins": 0
+    },
+    {
+      "Driver": "Stefano Modena",
+      "Starts": 5,
+      "Avg_Finish": 19.2,
+      "Wins": 0
+    },
+    {
+      "Driver": "Pierluigi Martini",
+      "Starts": 6,
+      "Avg_Finish": 19.333333,
+      "Wins": 0
+    }
+  ],
+  [
+    {
+      "Drivers_Changed": 6,
+      "Drivers": [
+        "Carlos Sainz",
+        "Daniel Ricciardo",
+        "Esteban Ocon",
+        "Lance Stroll",
+        "Sebastian Vettel",
+        "Sergio Pérez"
+      ]
+    }
+  ]
+]

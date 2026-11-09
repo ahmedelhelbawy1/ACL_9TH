@@ -1,0 +1,53 @@
+{
+  "nodes": {
+    "Driver": 861,
+    "Constructor": 212,
+    "Circuit": 77,
+    "Season": 75,
+    "Status": 139,
+    "Race": 1125,
+    "Result": 26759,
+    "Qualifying": 10494,
+    "PitStop": 11371
+  },
+  "relationships": {
+    "AT_CIRCUIT": 1125,
+    "IN_SEASON": 1125,
+    "FOR_RACE": 48624,
+    "BY_DRIVER": 48624,
+    "FOR_CONSTRUCTOR": 37253,
+    "HAS_STATUS": 26759
+  },
+  "patterns": {
+    "Race-[AT_CIRCUIT]->Circuit": 1125,
+    "Race-[IN_SEASON]->Season": 1125,
+    "Result-[FOR_RACE]->Race": 26759,
+    "Result-[BY_DRIVER]->Driver": 26759,
+    "Result-[FOR_CONSTRUCTOR]->Constructor": 26759,
+    "Result-[HAS_STATUS]->Status": 26759,
+    "Qualifying-[FOR_RACE]->Race": 10494,
+    "Qualifying-[BY_DRIVER]->Driver": 10494,
+    "Qualifying-[FOR_CONSTRUCTOR]->Constructor": 10494,
+    "PitStop-[FOR_RACE]->Race": 11371,
+    "PitStop-[BY_DRIVER]->Driver": 11371
+  },
+  "total_nodes": 51113,
+  "total_relationships": 163510,
+  "server": [
+    {
+      "name": "Neo4j Kernel",
+      "versions": [
+        "5.26.32"
+      ]
+    }
+  ],
+  "verified_on": "2026-11-09",
+  "query_row_counts": [
+    21,
+    11,
+    1,
+    106,
+    1
+  ],
+  "tests_passed": 35
+}

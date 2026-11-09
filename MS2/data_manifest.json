@@ -1,0 +1,44 @@
+{
+  "source": "https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020",
+  "version": 24,
+  "license": "CC0: Public Domain",
+  "download_url": "https://www.kaggle.com/api/v1/datasets/download/rohanrao/formula-1-world-championship-1950-2020?datasetVersionNumber=24",
+  "files": {
+    "circuits.csv": {
+      "rows": 77,
+      "sha256": "8a2ac67a0946ac238ddeaa4a212a1f3969f0108527b0213e7a38b3a5c3cba6eb"
+    },
+    "constructors.csv": {
+      "rows": 212,
+      "sha256": "ae423f6f2d6cd74d5cd594eac0bdec7e1e9be2cda3097eb69f870294a225618c"
+    },
+    "drivers.csv": {
+      "rows": 861,
+      "sha256": "6a894569cb031dd65fb5f113f57b235100966653eaedd9310503dc2e94afae6b"
+    },
+    "pit_stops.csv": {
+      "rows": 11371,
+      "sha256": "70cff48b96416d46b8f6f162e778fcee45582b8fa85e9ec4a5e2c7b60bead75c"
+    },
+    "qualifying.csv": {
+      "rows": 10494,
+      "sha256": "49c4ff9ae0be93d5f850f56c553d5e264914c7ba0c4d583462f3de06aebed3cc"
+    },
+    "races.csv": {
+      "rows": 1125,
+      "sha256": "4839d035abc603fa88fa08fa976a86d76cff35f3e94cb767d25f735a5a3376ef"
+    },
+    "results.csv": {
+      "rows": 26759,
+      "sha256": "a2392658044286800a0a946138067d9823f39e59147eeef0cbdda858ff172441"
+    },
+    "seasons.csv": {
+      "rows": 75,
+      "sha256": "9562d2374cced42e24988fb2325cca5c82455815a5f5d40f6a6f5262a36106dc"
+    },
+    "status.csv": {
+      "rows": 139,
+      "sha256": "c36b1287f2421a288c38b0ce875d6ed04ff26bbda3e06db3d99e12197ea894aa"
+    }
+  }
+}

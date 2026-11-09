@@ -1,0 +1,40 @@
+test_corrupt_archive_rejected_before_writes (tests.test_download.DownloadTests.test_corrupt_archive_rejected_before_writes) ... ok
+test_wrong_dataset_rejected_before_writes (tests.test_download.DownloadTests.test_wrong_dataset_rejected_before_writes) ... ok
+test_all_queries_and_sorting (tests.test_integration.EdgeCaseTests.test_all_queries_and_sorting) ... ok
+test_duplicate_node_identifier_rejected (tests.test_integration.EdgeCaseTests.test_duplicate_node_identifier_rejected) ... ok
+test_duplicate_relationship_detected (tests.test_integration.EdgeCaseTests.test_duplicate_relationship_detected) ... ok
+test_empty_optional_properties_are_absent (tests.test_integration.EdgeCaseTests.test_empty_optional_properties_are_absent) ... ok
+test_idempotent_rerun (tests.test_integration.EdgeCaseTests.test_idempotent_rerun) ... ok
+test_incorrect_property_type_detected (tests.test_integration.EdgeCaseTests.test_incorrect_property_type_detected) ... ok
+test_literal_missing_value_detected (tests.test_integration.EdgeCaseTests.test_literal_missing_value_detected) ... ok
+test_missing_properties_removed_on_rerun (tests.test_integration.EdgeCaseTests.test_missing_properties_removed_on_rerun) ... ok
+test_missing_relationship_detected (tests.test_integration.EdgeCaseTests.test_missing_relationship_detected) ... ok
+test_reversed_relationship_detected (tests.test_integration.EdgeCaseTests.test_reversed_relationship_detected) ... ok
+test_same_name_drivers_are_not_aggregated_together (tests.test_integration.EdgeCaseTests.test_same_name_drivers_are_not_aggregated_together) ... ok
+test_shared_drives_and_primary_constructor_tie (tests.test_integration.EdgeCaseTests.test_shared_drives_and_primary_constructor_tie) ... ok
+test_unrelated_data_preserved (tests.test_integration.EdgeCaseTests.test_unrelated_data_preserved) ... ok
+test_zero_changed_drivers_still_returns_one_row (tests.test_integration.EdgeCaseTests.test_zero_changed_drivers_still_returns_one_row) ... ok
+test_explicit_database_and_no_fallback (tests.test_integration.RealDataTests.test_explicit_database_and_no_fallback) ... ok
+test_five_queries_against_independent_csv_answers (tests.test_integration.RealDataTests.test_five_queries_against_independent_csv_answers) ... ok
+test_full_schema_and_rerun (tests.test_integration.RealDataTests.test_full_schema_and_rerun) ... ok
+test_all_nine_tables_and_pitstop_identifier (tests.test_unit.UnitTests.test_all_nine_tables_and_pitstop_identifier) ... ok
+test_bad_configs_do_not_leak_values (tests.test_unit.UnitTests.test_bad_configs_do_not_leak_values) ... ok
+test_bad_types (tests.test_unit.UnitTests.test_bad_types) ... ok
+test_config_by_key_and_embedded_equals (tests.test_unit.UnitTests.test_config_by_key_and_embedded_equals) ... ok
+test_dates (tests.test_unit.UnitTests.test_dates) ... ok
+test_duplicate_identifiers (tests.test_unit.UnitTests.test_duplicate_identifiers) ... ok
+test_expected_dataset_counts (tests.test_unit.UnitTests.test_expected_dataset_counts) ... ok
+test_missing_file_names (tests.test_unit.UnitTests.test_missing_file_names) ... ok
+test_missing_foreign_key (tests.test_unit.UnitTests.test_missing_foreign_key) ... ok
+test_missing_identifier (tests.test_unit.UnitTests.test_missing_identifier) ... ok
+test_missing_values_and_zero (tests.test_unit.UnitTests.test_missing_values_and_zero) ... ok
+test_numeric_types (tests.test_unit.UnitTests.test_numeric_types) ... ok
+test_query_headers_and_order (tests.test_unit.UnitTests.test_query_headers_and_order) ... ok
+test_required_columns (tests.test_unit.UnitTests.test_required_columns) ... ok
+test_unresolved_foreign_key (tests.test_unit.UnitTests.test_unresolved_foreign_key) ... ok
+test_wrong_row_width (tests.test_unit.UnitTests.test_wrong_row_width) ... ok
+
+----------------------------------------------------------------------
+Ran 35 tests in 12.645s
+
+OK
